@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hippocampus - Holistic Wellness & Spiritual Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🌿</text></svg>">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <div class="logo">🌿 Hippocampus</div>
+    <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+        <li><a href="#plugins" class="nav-link">Plugins</a></li>
+        <li><a href="#cta" class="nav-link">Connect</a></li>
+    </ul>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <h1>Welcome to <span>Hippocampus</span></h1>
+        <p>Your sacred companion for holistic wellness, spiritual growth, and inner peace</p>
+        <button class="cta-button" onclick="document.getElementById('plugins').scrollIntoView({behavior: 'smooth'})">
+            Explore Wellness Plugins
+        </button>
+    </div>
+</section>
+
+<!-- ===== PHILOSOPHY SECTION ===== -->
+<section class="about" id="philosophy">
+    <div class="section-header">
+        <h2>Our <span>Philosophy</span></h2>
+        <p>We believe wellness is a journey of connection—to yourself, nature, and your deepest intentions</p>
+    </div>
+    
+    <div class="philosophy-grid">
+        <div class="philosophy-card">
+            <h3>🧘 Balance</h3>
+            <p>Harmonize mind, body, and spirit through mindful practices and intentional living</p>
+        </div>
+        
+        <div class="philosophy-card">
+            <h3>🌱 Growth</h3>
+            <p>Nurture your highest self through self-discovery, reflection, and continuous transformation</p>
+        </div>
+        
+        <div class="philosophy-card">
+            <h3>✨ Radiance</h3>
+            <p>Cultivate inner light and authentic presence through spiritual alignment and gratitude</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PLUGINS SECTION ===== -->
+<section class="plugins" id="plugins">
+    <div class="section-header">
+        <h2>Wellness <span>Plugins</span></h2>
+        <p>Curated tools and practices to support your holistic journey</p>
+    </div>
+    
+    <div class="plugins-grid">
+        <!-- Plugin 1: Mindfulness -->
+        <div class="plugin-card">
+            <h3>🧠 Mindfulness Hub</h3>
+            <p>Daily guided meditations and breathing exercises to cultivate present-moment awareness</p>
+            <button class="learn-more" onclick="togglePlugin(this)">Learn More</button>
+            <div class="plugin-details">
+                <p><strong>Features:</strong></p>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ Guided meditation library (5-30 min sessions)</li>
+                    <li>✓ Breathing techniques for stress relief</li>
+                    <li>✓ Mindfulness reminders throughout your day</li>
+                    <li>✓ Progress tracking & habit building</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Plugin 2: Sleep & Rest -->
+        <div class="plugin-card">
+            <h3>🌙 Sleep & Rest Sanctuary</h3>
+            <p>Restorative practices and soundscapes to enhance deep, rejuvenating sleep</p>
+            <button class="learn-more" onclick="togglePlugin(this)">Learn More</button>
+            <div class="plugin-details">
+                <p><strong>Features:</strong></p>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ Sleep stories & calming soundscapes</li>
+                    <li>✓ Evening wind-down routines</li>
+                    <li>✓ Sleep cycle optimization tips</li>
+                    <li>✓ Dream journal & reflection space</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Plugin 3: Wellness Practices -->
+        <div class="plugin-card">
+            <h3>🌿 Holistic Wellness Practices</h3>
+            <p>Explore yoga, breathwork, nutrition, and energy practices for vibrant health</p>
+            <button class="learn-more" onclick="togglePlugin(this)">Learn More</button>
+            <div class="plugin-details">
+                <p><strong>Features:</strong></p>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ Yoga flows for all levels</li>
+                    <li>✓ Nutritional wisdom & recipes</li>
+                    <li>✓ Chakra balancing techniques</li>
+                    <li>✓ Wellness goals & tracking</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Plugin 4: Intention Setting -->
+        <div class="plugin-card">
+            <h3>✨ Intention & Manifestation</h3>
+            <p>Set meaningful intentions and align with your highest purpose and dreams</p>
+            <button class="learn-more" onclick="togglePlugin(this)">Learn More</button>
+            <div class="plugin-details">
+                <p><strong>Features:</strong></p>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ Daily intention setting prompts</li>
+                    <li>✓ Manifestation practices & affirmations</li>
+                    <li>✓ Goal alignment & visualization</li>
+                    <li>✓ Reflection & gratitude practices</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA SECTION ===== -->
+<section class="cta-section" id="cta">
+    <h2>Ready to Begin Your Journey?</h2>
+    <p>Join thousands cultivating wellness, peace, and spiritual growth with Hippocampus</p>
+    <button class="cta-button">Start Your Wellness Journey</button>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>🌿 <strong>Hippocampus</strong> - Your Sacred Wellness Companion</p>
+    <div class="footer-links">
+        <a href="#philosophy">About Us</a>
+        <a href="#plugins">Explore</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+    </div>
+    <p class="copyright">&copy; 2026 Hippocampus. All rights reserved. Nurturing wellness, one breath at a time. ✨</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
